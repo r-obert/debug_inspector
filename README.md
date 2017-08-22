@@ -6,9 +6,9 @@ __Main differences:__
 
 * Follows RubyGems naming conventions for gems.
 * Add Ruby 2.1+ requirement to gemspec.
-* Remove 'Object::DebugInspector' [true in banister/debug_inspector (soon?)](https://github.com/banister/debug_inspector/pull/22)
-* Remove 'Object::DebugInspector::VERSION' [true in banister/debug_inspector (soon?)](https://github.com/banister/debug_inspector/pull/22)
-* Add 'RubyVM::DebugInspector::VERSION' [true in banister/debug_inspector (soon?)](https://github.com/banister/debug_inspector/pull/22)
+* Remove 'Object::DebugInspector' [banister/debug_inspector pull request](https://github.com/banister/debug_inspector/pull/22)
+* Remove 'Object::DebugInspector::VERSION' [banister/debug_inspector pull request](https://github.com/banister/debug_inspector/pull/22)
+* Add 'RubyVM::DebugInspector::VERSION' [banister/debug_inspector pull request](https://github.com/banister/debug_inspector/pull/22)
 
 debug_inspector [![Build Status](https://travis-ci.org/banister/debug_inspector.svg?branch=master)](https://travis-ci.org/banister/debug_inspector)
 ===============
