@@ -14,4 +14,5 @@ Gem::Specification.new do |s|
   s.extensions = ["ext/rubyvm/debug_inspector/extconf.rb"]
   s.license = 'MIT'
   s.add_development_dependency 'minitest', '~> 5.10'
+  s.required_ruby_version = "~> 2.1"
 end
