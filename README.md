@@ -1,6 +1,17 @@
 debug_inspector [![Build Status](https://travis-ci.org/banister/debug_inspector.svg?branch=master)](https://travis-ci.org/banister/debug_inspector)
 ===============
 
+__NOTE:__
+
+[Fork of banister/debug_inspector](https://github.com/banister/debug_inspector)
+
+__Main differences:__
+
+* Follows RubyGems naming conventions for gems.
+* Remove 'Object::DebugInnpector'
+* Remove 'Object::DebugInspector::VERSION'
+* Add 'RubyVM::DebugInspector::VERSION'
+
 _A Ruby wrapper for the new MRI 2.0 debug\_inspector API_
 
 The `debug_inspector` C extension and API were designed and built by [Koichi Sasada](https://github.com/ko1), this project
