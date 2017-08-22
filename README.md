@@ -1,6 +1,3 @@
-debug_inspector [![Build Status](https://travis-ci.org/banister/debug_inspector.svg?branch=master)](https://travis-ci.org/banister/debug_inspector)
-===============
-
 __NOTE:__
 
 [Fork of banister/debug_inspector](https://github.com/banister/debug_inspector)
@@ -8,10 +5,13 @@ __NOTE:__
 __Main differences:__
 
 * Follows RubyGems naming conventions for gems.
-* Remove 'Object::DebugInspector'
-* Remove 'Object::DebugInspector::VERSION'
-* Add 'RubyVM::DebugInspector::VERSION'
 * Add Ruby 2.1+ requirement to gemspec.
+* Remove 'Object::DebugInspector' [true in banister/debug_inspector (soon?)](https://github.com/banister/debug_inspector/pull/22)
+* Remove 'Object::DebugInspector::VERSION' [true in banister/debug_inspector (soon?)](https://github.com/banister/debug_inspector/pull/22)
+* Add 'RubyVM::DebugInspector::VERSION' [true in banister/debug_inspector (soon?)](https://github.com/banister/debug_inspector/pull/22)
+
+debug_inspector [![Build Status](https://travis-ci.org/banister/debug_inspector.svg?branch=master)](https://travis-ci.org/banister/debug_inspector)
+===============
 
 _A Ruby wrapper for the new MRI 2.0 debug\_inspector API_
 
